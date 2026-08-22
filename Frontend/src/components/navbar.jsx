@@ -4,7 +4,7 @@ function NavBar(){
     return(
         <nav className="navbar">
             <div className="navbar-brand">
-                <Link to="/Home">Thotbox</Link>
+                <Link to="/Home">Thoughtbox</Link>
                 <img src="/src/assets/thotboxicon.png" className="appicon"></img>
             </div>
             <div className="navbar-links">
