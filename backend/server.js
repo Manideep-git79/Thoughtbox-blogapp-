@@ -9,7 +9,7 @@ const authRouter=require('./routes/auth');
 app.use(express.json()); 
 
 app.use(cors( {
-  origin:'https://thotbox-wheat.vercel.app',
+  origin:'https://thoughtbox-wheat.vercel.app',
   credentials:true
 }))
 
